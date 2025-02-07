@@ -10,7 +10,7 @@ public class Scorer : MonoBehaviour
         if (collision.gameObject.tag != "Hit")
         {
             score++;
-            Debug.Log("Score: " + score);
+            //Debug.Log("Score: " + score);
         }
     }
 }
